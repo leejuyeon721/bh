@@ -52,7 +52,12 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Me: '이것은 핸드폰입니다',
+      RED: '이것은빨간색물체입니다',
+      GREEN: '이것은초록색물체입니다',
+      BROWN: '이것은갈색물체입니다'
+      BLUE: '이것은파란색물체입니다'
+      YELLOW: '이것은노란색계열의물체입니다'
+      WHITE OR BLACK: '이것은하얀색혹은검은색의물체입니다'
   
     };
 
