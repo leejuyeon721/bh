@@ -53,7 +53,7 @@ async function predict() {
 
     const data = {
       Me: '이것은 핸드폰입니다',
-      None: '이것은 아무것도 없습니다',
+  
     };
 
     if (probability >= 75) {
